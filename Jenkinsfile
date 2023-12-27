@@ -22,7 +22,7 @@ pipeline {
                     apiVersion: v1
                     kind: Pod
                     metadata:
-                      name: nginx-pod
+                      name: nginx-pod123
                       labels:
                         app: nginx
                     spec:
