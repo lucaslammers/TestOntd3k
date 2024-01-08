@@ -30,7 +30,7 @@ pipeline {
                       - name: nginx-container
                         image: nginx:latest
                         ports:
-                        - containerPort: 80"""
+                        - containerPort: 8080"""
                     
                     // Save the pod configuration to a file
                     writeFile file: 'nginx-pod.yaml', text: podConfig
